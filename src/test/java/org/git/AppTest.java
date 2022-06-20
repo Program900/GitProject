@@ -1,8 +1,7 @@
 package org.git;
 
-import static org.junit.Assert.assertTrue;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 /**
  * Unit test for simple App.
@@ -13,15 +12,15 @@ public class AppTest
      * Rigorous Test :-)
      */
 
-    @Test
+    @Test(priority=1)
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        System.out.println("test");
     }
 
     @Test
     public void showSecond()
     {
-        assertTrue( true );
+        System.out.println("test123");
     }
 }

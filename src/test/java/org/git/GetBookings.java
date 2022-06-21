@@ -3,7 +3,7 @@ package org.git;
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 
-public class Example2 {
+public class GetBookings {
 
     @Test
     private void GetRequestForOneBooking(){

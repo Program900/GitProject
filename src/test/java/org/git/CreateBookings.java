@@ -4,7 +4,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
 
-public class Example1 {
+public class CreateBookings {
 
     @Test
     private void postRequestTest(){
